@@ -5,7 +5,7 @@ module.exports = {
     // Which files make up our projects and libraries
     // and where are they located in project
     resolve: {
-        extensions: ['*', '.js', ',jsx'],
+        extensions: ['*', '.js', '.jsx'],
         modules: ['src', 'node_modules'],
     },
     module: {
